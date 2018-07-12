@@ -26,16 +26,13 @@ $ npm install
 
 ### Create an App
 * **Create an Intuit Developer account and app**:  
-  You must have an Intuit Developer account and have created an app. To know more refer ot he [Get Started](https://developer.intuit.com/docs/00_quickbooks_online/1_get_started/00_get_started) 
+  You must have an Intuit Developer account and have created an app. To know more refer to [Get Started](https://developer.intuit.com/docs/00_quickbooks_online/1_get_started/00_get_started) 
 * **Create an App with Payment Scope**:    
   Login to [Developer Portal](https://developer.intuit.com) and click on `My Apps` on the top right corner and create an App as shown below  
   ![APP screenshots1](public/images/App_Create_1.png) 
   Select the `Payments` scope while creating the app.
   ![APP screenshots2](public/images/App_Create_2.png)
-* **Get client keys**:    
-  Obtain OAuth 2.0 client keys from your app's dashboard on developer.intuit.com.  To locate the app's dashboard, sign in to developer.intuit.com and click My Apps. Find and open the app you want. From here, click the Keys tab. There are two versions of this key:   
-  * Development keys—use only in the sandbox environment.
-  * Production keys—use only in the production environment. 
+
 
 ### Get Access Token from OAuth Playground
 * **Get AccessToken**:  
@@ -75,7 +72,7 @@ You dont have to worry about installing ngrok. The sample application does that 
 $ npm start
 ```
 
-### Without ngrok (if you are using localhost to serve the sample app)
+### Without ngrok (if you are using localhost to serve the sample app i.e `NGROK_ENABLED`=`false` in `.env`)
 You will see an URL as below:
 ```bash
 💻 Server listening on port 8000  
@@ -83,7 +80,7 @@ You will see an URL as below:
 ```
 
 
-### With ngrok (if you are using ngrok )
+### With ngrok (if you are using ngrok i.e `NGROK_ENABLED`=`true` in `.env`)
 
 Your will see an URL as below : 
 ```bash
