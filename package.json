@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "A sample NodeJs application to demonstrate Inutit Payment API's",
   "scripts": {
-    "start": "node app",
-    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+    "start": "node app"
   },
   "author": "anil_kumar3",
   "license": "MIT",

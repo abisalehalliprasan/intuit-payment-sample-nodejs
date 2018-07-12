@@ -90,6 +90,14 @@ Your will see an URL as below :
 
 Click on the URL and follow through the instructions given in the sample app.
 
+
+### Running `Sample App` on Heroku
+
+If you already have your Glip email address and password, you can use [Heroku One-Button Deployment](https://devcenter.heroku.com/articles/heroku-button).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## Links
 
 Project Repo
